@@ -1,0 +1,45 @@
+{
+  "name": "fakejobboard",
+  "version": "1.0.0",
+  "description": "A fake job board to practice CSS flexbox and other CSS components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch --progress",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbelesiu/fakeJobBoard.git"
+  },
+  "keywords": [
+    "css",
+    "flexbox"
+  ],
+  "author": "Matthew J Belesiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbelesiu/fakeJobBoard/issues"
+  },
+  "homepage": "https://github.com/mbelesiu/fakeJobBoard#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "css-loader": "^5.0.1",
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "webpack": "^5.17.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.7",
+    "webpack-cli": "^4.4.0"
+  }
+}
